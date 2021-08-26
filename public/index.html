@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market place</title>
+
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/0e85c24d05.js" crossorigin="anonymous"></script>
+
+    <!--Custom Stylesheet-->
+    <link rel = "stylesheet" href="./css/style.css"/>
+    <link rel = "stylesheet" href="./css/owl.css"/>
+
+   
+
+    <!--jQuery
+    <scrip://codet src="https.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- slick styles-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"/>
+    
+    
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white"
+                                data-toggle = "dropdown"
+                                aria-haspopup = "true"
+                                aria-expanded="false">USD</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">EUR - Euro</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">Store</h2>
+                    <br/>
+                    <center><nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                      </ol>
+                    </nav></center>
+                  </nav>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links text-white">
+                        <a href="" class="px-2">Sign In</a>
+                        <a href="" class="px-1">Create an Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">HOME</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="donut.html">Donut</a></li>
+                          <li><a class="dropdown-item" href="#">Banana</a></li>
+                          <li><a class="dropdown-item" href="#">Orange</a></li>
+                          <!--<li><hr class="dropdown-divider"></li>-->
+                          <li><a class="dropdown-item" href="#">Apple</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                   <!-- <form class="d-flex mx-md-5">
+                      <input class="form-control me-2 fas fa-search" type="search" placeholder="Search" aria-label="Search"><span class = "fas fa-search P-2"></span></input>
+                      
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>-->
+                    
+                  </div>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item rounded-circle mx-2 search-icon p-1">
+                        <i class="fas fa-search"></i>
+                    </li>
+
+                    <li class="nav-item rounded-circle mx-2 cart-icon p-1">
+                        <i class="fas fa-shopping-cart"></i>
+                    </li>
+                </div>
+               
+        </div>
+    </header>
+
+    <main>
+      <!--first slide-->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gen-slide-one">
+                <img src="./images/product-1.jpg" class="d-block w-100 fixed-height img-responsive" alt="...">
+                
+                <div class="carousel-caption d-block carousel-content slide-1">
+                  <p class = "slide-one-text">Best sales market place</p>
+                  <p class = "slide-one-text">Trade with us</p>
+                  <button onclick="window.location.href='#featured-products'"class = "slide-one-button btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop-head">Order Now</button>
+                </div>
+              </div>
+
+              <div class="carousel-item gen-slide-two">
+                <img src="./images/product-1.jpg" class="d-block w-100 fixed-height img-responsive" alt="...">
+                <div class="carousel-caption d-block carousel-content slide-2">
+                  <p class = "slide-two-text">First Class Orders</p>
+
+                  <div class = " d-block anime">
+                    <h2>Quality</h2>
+                    <h2>Quality</h2>
+                  </div>
+
+                  
+                </div>
+              </div>
+              
+              <div class="carousel-item gen-slide-three">
+                <img src="./images/product-1.jpg" class="d-block w-100 fixed-height img-responsive" alt="...">
+                <div class="carousel-caption d-block carousel-content slide-3">
+                  <h5>Best Deals!!!</h5>
+                  <p>What's stopping you?</p>
+                </div>
+              </div>
+              <div class="carousel-item gen-slide-four">
+                <img src="./images/product-1.jpg" class="d-block w-100 fixed-height img-responsive" alt="...">
+                <div class="carousel-caption d-block carousel-content slide-4">
+                  <h5>You gon' rule you</h5>
+                  <p>Ain't no one gone rule you, best sales.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+          <!-- Button trigger modal -->
+          <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+          </button>-->
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop-head" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <center><h5 class="modal-title" id="staticBackdropLabel-head">Choose a product category</h5></center>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="list-group">
+                    <!--<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      The current link item
+                    </a>-->
+                    <a href="donut.html" class="list-group-item list-group-item-action">Donut</a>
+                    <a href="#" class="list-group-item list-group-item-action">Banana</a>
+                    <a href="#" class="list-group-item list-group-item-action">Orange</a>
+                    <a href="#" class="list-group-item list-group-item-action">Apple</a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner p-2">
+              <div class="carousel-item active">
+                <img src="py1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="py2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="py3.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
+
+          <!-- What makes us special-->
+          <!-- <div class="grid special">
+            <div class="g-col-6 g-col-md-4 one">What makes us special!</div>
+            <div class="g-col-6 g-col-md-4 two">Bla Bla Bla</div>
+          </div> -->
+
+          <!--<div class="container fada">
+            <div class="row special">
+                <div class="col-md-6 one">  
+                   <a href="">About</a>
+                </div>
+               
+                <div class="col-md-6 two"> 
+                    <a href="#myModal1" data-toggle="modal">SHARE</a>
+                </div>
+             </div>
+         </div>-->
+
+         <div class="container-fluid fada"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+          <div class="row special">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 one typed">
+                  
+                  <p class = "ask">Ask!. <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                  <p class = "worry"> DON'T WORRY, WE GOT YOU COVERED!!</p>
+                </div>
+            
+                <script>
+                    const typedTextSpan = document.querySelector(".typed-text");
+                    const cursorSpan = document.querySelector(".cursor");
+                    
+                    const textArray = ["Who we are?", "Where we are?", "What we do?", "Why?"];
+                    const typingDelay = 200;
+                    const erasingDelay = 100;
+                    const newTextDelay = 2000; // Delay between current and next text
+                    let textArrayIndex = 0;
+                    let charIndex = 0;
+                    
+                    function type() {
+                      if (charIndex < textArray[textArrayIndex].length) {
+                        if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                        charIndex++;
+                        setTimeout(type, typingDelay);
+                      } 
+                      else {
+                        cursorSpan.classList.remove("typing");
+                        setTimeout(erase, newTextDelay);
+                      }
+                    }
+                    
+                    function erase() {
+                      if (charIndex > 0) {
+                        if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+                        charIndex--;
+                        setTimeout(erase, erasingDelay);
+                      } 
+                      else {
+                        cursorSpan.classList.remove("typing");
+                        textArrayIndex++;
+                        if(textArrayIndex>=textArray.length) textArrayIndex=0;
+                        setTimeout(type, typingDelay + 1100);
+                      }
+                    }
+                    
+                    document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+                      if(textArray.length) setTimeout(type, newTextDelay + 250);
+                    });
+                </script>
+
+              
+             
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 two">
+                  <p id = "typedtext" class = "typed-description"></p>
+                  
+              </div>
+              <script>
+                        // set up text to print, each item in array is new line
+                  var aText = new Array(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  );
+                  var iSpeed = 100; // time delay of print out
+                  var iIndex = 0; // start printing array at this posision
+                  var iArrLength = aText[0].length; // the length of the text array
+                  var iScrollAt = 20; // start scrolling up at this many lines
+                  
+                  var iTextPos = 0; // initialise text position
+                  var sContents = ''; // initialise contents variable
+                  var iRow; // initialise current row
+                  
+                  function typewriter()
+                  {
+                  sContents =  ' ';
+                  iRow = Math.max(0, iIndex-iScrollAt);
+                  var destination = document.getElementById("typedtext");
+                  
+                  while ( iRow < iIndex ) {
+                    sContents += aText[iRow++] + '<br />';
+                  }
+                  destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+                  if ( iTextPos++ == iArrLength ) {
+                    iTextPos = 0;
+                    iIndex++;
+                    if ( iIndex != aText.length ) {
+                    iArrLength = aText[iIndex].length;
+                    setTimeout("typewriter()", 500);
+                    }
+                  } else {
+                    setTimeout("typewriter()", iSpeed);
+                  }
+                  }
+
+
+                    typewriter();
+
+              </script>
+          </div>
+      </div>
+      
+      <!-- confidentiality -->
+      <div class = "container-fluid" id ="start-shopping">
+        <div class="row start-shopping-row">
+          <div class="col-md-2 col-sm-5 col-xs-8 start-shopping one">
+            <img src = "./images/shop-icon.png" class = "img-responsive" id = "start-shopping-image-one" alt = "">
+            <h2>Shop</h2>
+            <p>Start your shopping</p>
+          </div>
+          <div class="col-md-2 col-sm-5 col-xs-8 start-shopping two">
+            <img src = "./images/deliver-icon.png" class = "img-responsive" id = "start-shopping-image-two" alt = "">
+            <h2>Discount</h2>
+            <p>Earn discounts</p>
+          </div>
+          <div class="col-md-2 col-sm-5 col-xs-8 start-shopping three">
+            <img src = "./images/shipping-icon.png" class = "img-responsive" id = "start-shopping-image-three" alt = "">
+            <h2>Shipping</h2>
+            <p>3 days max delivery</p>
+          </div>
+          <div class="col-md-2 col-sm-5 col-xs-8 start-shopping four">
+            <img src = "./images/support-icon.png" class = "img-responsive" id = "start-shopping-image-four" alt = "">
+            <h2>Support</h2>
+            <p>24/7 customer support</p>
+          </div>
+        </div>
+       
+      </div>
+
+      <!-- slide 2-->
+      <div class="product-container" id = "featured-products">
+        <h2>Featured Products <i style = "font-size: 40px; text-align: center;" class="material-icons">
+          hotel_class
+      </i></h2>
+        <div class="product-row">
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+          <div class = "content">
+            <center><img class = "product-img img-responsive" src = "./images/product-1.jpg">
+            <span class = "product-title">Title</span></center>
+          </div>
+        
+         
+
+        </div>
+      </div>
+        
+      
+      
+         
+    </main>
+    <footer></footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!--Slick-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.product-row').slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay:true,
+          autoplaySpeed:3000,
+          arrows:false,
+          dots:false,
+
+          responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          }
+        ]
+  
+        });
+      });
+    </script>
+
+    <!--custom js-->
+    <script src = "./js/main.js"></script>
+    
+
+    
+    <script>
+        
+      $(document).ready(function(){
+        $('slider-one').slick({
+        //setting-name: setting-value
+          });
+        });
+      
+  </script>
+
+</body>
+</html>
